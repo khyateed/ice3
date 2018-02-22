@@ -1,0 +1,83 @@
+
+
+@media screen and (min-width:650px){      
+	.top-nav ul{
+		list-style-type: none;
+		padding: 0;
+		background-color: #211D24; /*CHANGE*/
+		margin: 0 6em;
+		display: block;
+		text-align: center;
+		border-top: 1px solid  red; 
+
+	}
+	.top-nav ul li, .menu-icon{
+		border: none;
+		display: inline-block;
+	}
+	.top-nav ul li a{
+		font-size: 1em;
+		color: #DDDDDA; /*CHANGE*/
+		text-decoration: none;
+		padding: .5em 1em;
+		display: block;
+		text-align: center;
+	}
+	.menu-icon a{
+		font-size: 1em;
+		color: #DDDDDA; /*CHANGE*/
+		text-decoration: none;
+		padding: .5em 1em;
+		display: block;
+		text-align: center;
+	}
+
+	#yellow {
+		width: 48%
+
+		}
+	#purple {
+		width: 48%;
+	}
+
+	
+}
+
+@media screen and (min-width: 1000px){  
+	.top-nav ul{
+		list-style-type: none;
+		padding: .8em;
+		background-color: #211D24; /*CHANGE*/
+		margin: 0 ;
+		display: block;
+		text-align: right;
+		border: none;
+		}
+	.logo {
+		position: absolute;
+		left: 0%;
+	}
+	#black{
+		width: 48%;
+	}
+	#maroon{
+		width: 48%;
+	}
+	#yellow {
+		width: 23%;
+		}
+	#purple {
+		width: 23%;
+	}
+	#green {
+		width: 48%;
+		}
+	#blue {
+		width: 48%;
+	}
+	#red {
+		width: 48%;
+	}
+
+
+}
